@@ -1,0 +1,30 @@
+html, body, #game-container{
+	min-height: 100%;
+	height: 100%;
+}
+
+body{
+	background-image: url("castle.jpg");
+	background-size: cover;
+    background-position: 50% 50%;
+}
+
+#game-buttons{
+	margin-top: 40%;
+	height: 10%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+}
+
+#button1, #button2, #button3{
+	height: 50%;
+	width: 15%;
+	margin-left: 5%
+	margin-right: 5%;
+}
+
+#title, #description{
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+}
